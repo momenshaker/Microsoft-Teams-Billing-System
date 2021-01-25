@@ -1,0 +1,85 @@
+﻿@page
+@model BillingPortal.Pages.Countries.EditModel
+@{
+
+}<div class="right_col" role="main">
+    <div class="">
+        <div class="page-title">
+            <div class="title_left">
+                <h3>Edit <small></small></h3>
+            </div>
+
+
+        </div>
+
+        <div class="clearfix"></div>
+        <div class="row" style="display: block;">
+            <div class="col-md-12 col-sm-12 ">
+                <div class="x_panel">
+                    <div class="x_title">
+                        <h2>Edit Country Cost Per Minute <small>Form For : @Model._country.countryname</small></h2>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+                        <br>
+                        <form method="post" data-parsley-validate="" class="form-horizontal form-label-left" novalidate="">
+                            <input type="hidden" asp-for="_country.id" />
+                            <input type="hidden" asp-for="_country.countryname" />
+                            <input type="hidden" asp-for="_country.iso" />
+                            <input type="hidden" asp-for="_country.iso3" />
+                            <input type="hidden" asp-for="_country.nicename" />
+                            <input type="hidden" asp-for="_country.numcode" />
+                            <input type="hidden" asp-for="_country.phonecode" />
+
+                            <div class="item form-group">
+                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">
+                                    Cost Per Minute/Second <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 ">
+                                    <input type="text" asp-for="_country.CostPerMinute" required="required" class="form-control " />
+
+                                </div>
+                            </div>
+                            <div class="item form-group">
+                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">
+                                    Calculate by Local Phone Service Provider <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 ">
+                                    <input type="checkbox" asp-for="_country.SubPhones" />
+
+                                </div>
+                            </div>
+                            <div class="item form-group">
+                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">
+                                    Calucate Per Minute <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 ">
+                                    <input type="checkbox" asp-for="_country.PerMinute" />
+
+                                </div>
+                            </div>
+                            <div class="item form-group">
+                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">
+                                    Calucate Per Second <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 ">
+                                    <input type="checkbox" asp-for="_country.PerSecond" />
+
+                                </div>
+                            </div>
+
+                            <div class="ln_solid"></div>
+                            <div class="item form-group">
+                                <div class="col-md-6 col-sm-6 offset-md-3">
+
+                                    <button type="submit" class="btn btn-success">Submit</button> |  <a asp-page="/Countries/Index">Cancel</a>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

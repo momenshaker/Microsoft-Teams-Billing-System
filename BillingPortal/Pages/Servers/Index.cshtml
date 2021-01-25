@@ -1,0 +1,62 @@
+﻿@page
+@model BillingPortal.Pages.Servers.IndexModel
+@{
+    Layout = "_LayoutTables";
+}
+<div class="right_col" role="main">
+    <div class="">
+        <div class="page-title">
+            <div class="title_left">
+                <h3>Session Border Controllers <small>List of all avaliable Session Border Controllers </small></h3>
+            </div>
+
+
+        </div>
+
+        <div class="clearfix"></div>
+        <div class="row" style="display: block;">
+            <div class="col-md-12 col-sm-12  ">
+                <div class="x_panel">
+                    <div class="x_title">
+                        <h2>
+                            List of Session Border Controllers |  <a asp-page="/Servers/Create" class="btn btn-info">Create New</a>
+                            <small></small>
+                        </h2>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+
+                        <table class="table" id="datatable">
+                            <thead>
+                                <tr>
+                                    <th>Session Border Controller Name</th>
+                                    <th>Session Border Controller IP</th>
+                                    <th>Session Border Controller Location</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model._CompanyServers)
+                                {
+
+                                    <tr>
+                                        <td> @item.ServerName </td>
+                                        <td>@item.ServerIP</td>
+                                        <td>@item.Location</td>
+                                        <td>
+                                            <a asp-page="/Servers/Edit" asp-route-id="@item.id" class="btn btn-info">Edit</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>

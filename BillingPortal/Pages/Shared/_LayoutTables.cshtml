@@ -1,0 +1,257 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.ico" type="image/ico" />
+
+    <title>PAIS GROUP | </title>
+
+    <!-- Bootstrap -->
+    <link href="~/Vendor/bootstrap.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="~/Vendor/font-awesome.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="~/Vendor/nprogress.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="~/Vendor/green.css" rel="stylesheet">
+
+    <!-- bootstrap-progressbar -->
+    <link href="~/Vendor/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+    <!-- JQVMap -->
+    <link href="~/Vendor/jqvmap.css" rel="stylesheet" />
+    <!-- bootstrap-daterangepicker -->
+    <link href="~/Vendor/daterangepicker.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="~/Vendor/custom.css" rel="stylesheet">
+    <script src="~/Vendor/jquery.min.js"></script>
+
+</head>
+
+<body class="nav-sm">
+    <div class="container body">
+        <div class="main_container">
+            <div class="col-md-3 left_col">
+                <div class="left_col scroll-view">
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="/" class="site_title"><i class="fa fa-phone"></i> <span>Billing System</span></a>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <!-- menu profile quick info -->
+                    <div class="profile clearfix">
+                        <div class="profile_pic">
+                            <img src="images/Noimage.png" alt="..." class="img-circle profile_img">
+                        </div>
+                        <div class="profile_info">
+                            <span>Welcome,</span>
+                            <h2>John Doe</h2>
+                        </div>
+                    </div>
+                    <!-- /menu profile quick info -->
+
+                    <br />
+
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                        <div class="menu_section">
+                            <h3>General</h3>
+                            <ul class="nav side-menu">
+                                <li>
+                                    <a href="/Index"><i class="fa fa-home"></i> Home</a>
+                                </li>
+                                <li>
+                                    <a href="/Countries/Index"><i class="fa fa-edit"></i> Countries </a>
+
+                                </li>
+                                <li>
+                                    <a href="/Servers/Index"><i class="fa fa-server"></i> Session Border Controllers </a>
+
+                                </li>
+
+                                <li><a href="/Reports/AllOutgoingCalls"><i class="fa fa-arrow-circle-right"></i> All PSTN Calls Log</a></li>
+                                <li><a href="/Reports/AllInternalCalls"><i class="fa fa-arrow-circle-left"></i> All Internal Calls Log</a></li>
+                                <li><a href="/Reports/OutgoingCallsByUser"><i class="fa fa-user"></i>PSTN Calls By User</a></li>
+                                <li><a href="/Reports/OutgoingCallsByCountry"><i class="fa fa-map"></i>PSTN Calls By Country</a></li>
+
+                                <li>
+                                    <a><i class="fa fa-mail-forward"></i> Tickets </a>
+
+                                </li>
+                                <li>
+                                    <a><i class="fa fa-long-arrow-up"></i> Log </a>
+
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                    <!-- /sidebar menu -->
+                    <!-- /menu footer buttons -->
+                    <div class="sidebar-footer hidden-small">
+                        <a data-toggle="tooltip" data-placement="top" title="Settings">
+                            <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+                            <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="Lock">
+                            <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+                        </a>
+                        <a data-toggle="tooltip" data-placement="top" title="Logout" href="login.html">
+                            <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                    <!-- /menu footer buttons -->
+                </div>
+            </div>
+            <div class="top_nav">
+                <div class="nav_menu">
+
+                    <nav class="nav navbar-nav">
+                        <ul class=" navbar-right">
+                            <li class="nav-item dropdown open" style="padding-left: 15px;">
+                                <a href="javascript:;" class="user-profile dropdown-toggle" aria-haspopup="true" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
+                                    <img src="/image/Noimage.png" alt="">@User.Identity.Name
+                                </a>
+                                <div class="dropdown-menu dropdown-usermenu pull-right" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            @RenderBody()
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <!-- Bootstrap -->
+    <script src="~/Vendor/bootstrap.bundle.min.js"></script>
+    <!-- FastClick -->
+    <script src="~/Vendor/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="~/Vendor/nprogress.js"></script>
+    <!-- iCheck -->
+    <script src="~/Vendor/icheck.min.js"></script>
+
+    <script src="~/Vendor/jquery.dataTables.min.js"></script>
+    <script src="~/Vendor/dataTables.bootstrap.min.js"></script>
+    <script src="~/Vendor/dataTables.buttons.min.js"></script>
+    <script src="~/Vendor/buttons.bootstrap.min.js"></script>
+    <script src="~/Vendor/buttons.flash.min.js"></script>
+    <script src="~/Vendor/buttons.html5.min.js"></script>
+    <script src="~/Vendor/buttons.print.min.js"></script>
+    <script src="~/Vendor/dataTables.fixedHeader.min.js"></script>
+    <script src="~/Vendor/dataTables.keyTable.min.js"></script>
+    <script src="~/Vendor/dataTables.responsive.min.js"></script>
+    <script src="~/Vendor/responsive.bootstrap.js"></script>
+    <script src="~/Vendor/dataTables.scroller.min.js"></script>
+    <!-- Custom Theme Scripts -->
+    <script src="~/Vendor/pdfmake.min.js"></script>
+    <script src="~/Vendor/vfs_fonts.js"></script>
+    <script>
+        function init_DataTables() {
+
+            console.log('run_datatables');
+
+            if (typeof ($.fn.DataTable) === 'undefined') { return; }
+            console.log('init_DataTables');
+
+            var handleDataTableButtons = function () {
+                if ($("#datatable-buttons").length) {
+                    $("#datatable-buttons").DataTable({
+                        dom: "Blfrtip",
+                        buttons: [
+                            {
+                                extend: "copy",
+                                className: "btn-sm"
+                            },
+                            {
+                                extend: "csv",
+                                className: "btn-sm"
+                            },
+                            {
+                                extend: "excel",
+                                className: "btn-sm"
+                            },
+                            {
+                                extend: "pdfHtml5",
+                                className: "btn-sm"
+                            },
+                            {
+                                extend: "print",
+                                className: "btn-sm"
+                            },
+                        ],
+                        responsive: true
+                    });
+                }
+            };
+
+            TableManageButtons = function () {
+                "use strict";
+                return {
+                    init: function () {
+                        handleDataTableButtons();
+                    }
+                };
+            }();
+
+            $('#datatable').dataTable();
+
+            $('#datatable-keytable').DataTable({
+                keys: true
+            });
+
+            $('#datatable-responsive').DataTable();
+
+            $('#datatable-scroller').DataTable({
+                ajax: "js/datatables/json/scroller-demo.json",
+                deferRender: true,
+                scrollY: 380,
+                scrollCollapse: true,
+                scroller: true
+            });
+
+            $('#datatable-fixed-header').DataTable({
+                fixedHeader: true
+            });
+
+            var $datatable = $('#datatable-checkbox');
+
+            $datatable.dataTable({
+                'order': [[1, 'asc']],
+                'columnDefs': [
+                    { orderable: false, targets: [0] }
+                ]
+            });
+            $datatable.on('draw.dt', function () {
+                $('checkbox input').iCheck({
+                    checkboxClass: 'icheckbox_flat-green'
+                });
+            });
+
+            TableManageButtons.init();
+
+        };
+
+        $(document).ready(function () {
+
+            init_DataTables();
+            $("[type=search]").on("keyup", function () {
+                $("#ExprotFile").attr("href", "/Reports/Export?type=" + $("#Type").val() + "&id=" + $("[type=search]").val());
+            });
+
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+﻿@page
+@model BillingPortal.Pages.PhoneProviders.IndexModel
+@{
+    Layout = "_LayoutTables";
+}
+<div class="right_col" role="main">
+    <div class="">
+        <div class="page-title">
+            <div class="title_left">
+                <h3>Phone Providers <small>List of all avaliable Providers For @ViewData["Country"] </small></h3>
+            </div>
+
+
+        </div>
+
+        <div class="clearfix"></div>
+        <div class="row" style="display: block;">
+            <div class="col-md-12 col-sm-12  ">
+                <div class="x_panel">
+                    <div class="x_title">
+                        <h2>
+                            List of Providers For @ViewData["Country"] |  <a asp-page="/PhoneProviders/Create" asp-route-id="@ViewData["Country"]" class="btn btn-info">Create New</a> | <a asp-page="/Countries/Index" class="btn btn-info">Back</a>
+                            <small></small>
+                        </h2>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+
+                        <table class="table" id="datatable">
+                            <thead>
+                                <tr>
+                                    <th>Provider Name</th>
+                                    <th>Calculate Per Minute</th>
+                                    <th>Calculate Per Second</th>
+                                    <th>Code</th>
+                                    <th>Cost Per Minute/Second</th>
+                                    <td>Server Name</td>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model._SubPhones)
+                                {
+
+                                <tr>
+                                    <td> @item.ProviderName </td>
+                                    <td>@item.PerMinute</td>
+                                    <td>@item.PerSecond</td>
+                                    <td>@item.phonecode</td>
+                                    <td>@item.CostPerMinute</td>
+                                    <td>@item.ServerName</td>
+                                    <td>
+                                        <a asp-page="/PhoneProviders/EditProvider" asp-route-id="@item.id" class="btn btn-info">Edit</a>
+                                    </td>
+                                </tr>
+                                }
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>

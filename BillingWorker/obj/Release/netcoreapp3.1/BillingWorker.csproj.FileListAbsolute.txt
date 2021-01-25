@@ -1,0 +1,132 @@
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\appsettings.Development.json
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\appsettings.json
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\BillingWorker.exe
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Hosting.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Debug.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.EventLog.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.EventSource.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\obj\Release\netcoreapp3.1\BillingWorker.csprojAssemblyReference.cache
+D:\BillingSystem\BillingSystemV4\BillingWorker\obj\Release\netcoreapp3.1\BillingWorker.AssemblyInfoInputs.cache
+D:\BillingSystem\BillingSystemV4\BillingWorker\obj\Release\netcoreapp3.1\BillingWorker.AssemblyInfo.cs
+D:\BillingSystem\BillingSystemV4\BillingWorker\obj\Release\netcoreapp3.1\BillingWorker.csproj.CopyComplete
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\NCrontab.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Graph.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Graph.Core.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\RestSharp.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\BillingWorker.deps.json
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\BillingWorker.runtimeconfig.json
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\BillingWorker.runtimeconfig.dev.json
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\BillingWorker.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\BillingWorker.pdb
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Azure.Core.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Azure.Identity.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Azure.Security.KeyVault.Certificates.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Azure.Security.KeyVault.Secrets.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Identity.Web.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\obj\Release\netcoreapp3.1\BillingWorker.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\obj\Release\netcoreapp3.1\BillingWorker.pdb
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Hosting.WindowsServices.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\System.ServiceProcess.ServiceController.dll
+D:\BillingSystem\BillingSystemV4\BillingWorker\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.ServiceProcess.ServiceController.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\appsettings.Development.json
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\appsettings.json
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\BillingWorker.exe
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\BillingWorker.deps.json
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\BillingWorker.runtimeconfig.json
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\BillingWorker.runtimeconfig.dev.json
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\BillingWorker.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\BillingWorker.pdb
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Azure.Core.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Azure.Identity.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Azure.Security.KeyVault.Certificates.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Azure.Security.KeyVault.Secrets.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Hosting.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Hosting.WindowsServices.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Debug.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.EventLog.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.EventSource.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Graph.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Graph.Core.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.Identity.Web.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\NCrontab.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\RestSharp.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\System.ServiceProcess.ServiceController.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.ServiceProcess.ServiceController.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\obj\Release\netcoreapp3.1\BillingWorker.csprojAssemblyReference.cache
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\obj\Release\netcoreapp3.1\BillingWorker.AssemblyInfoInputs.cache
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\obj\Release\netcoreapp3.1\BillingWorker.AssemblyInfo.cs
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\obj\Release\netcoreapp3.1\BillingWorker.csproj.CoreCompileInputs.cache
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\obj\Release\netcoreapp3.1\BillingWorker.csproj.CopyComplete
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\obj\Release\netcoreapp3.1\BillingWorker.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\obj\Release\netcoreapp3.1\BillingWorker.pdb
+D:\BillingSystem\BillingSystemV4 - Copy\BillingWorker\obj\Release\netcoreapp3.1\BillingWorker.genruntimeconfig.cache

@@ -1,0 +1,279 @@
+﻿@page
+@model BillingPortal.Pages.Reports.IndividualOutgoingReportModel
+@{
+ 
+}
+
+
+<!-- page content -->
+    <div class="right_col" role="main">
+        <!-- top tiles -->
+        <div class="row" style="display: inline-block;    width: 100%;">
+            <div class="tile_count col-sm-12">
+                <div class="col-md-2  tile_stats_count">
+                    <span class="count_top"><i class="fa fa-user"></i> Total Calls</span>
+                    <div class="count">@Model._UserReport.TotalCalls</div>
+                </div>
+                <div class="col-md-3   tile_stats_count">
+                    <span class="count_top"><i class="fa fa-clock-o"></i> Average Call Time</span>
+                    <div class="count">
+                        @{
+                            TimeSpan t = TimeSpan.FromSeconds(Model._UserReport.AvarageCallTime);
+
+                            string answer = string.Format("{0:D2}:{1:D2}:{2:D2}",
+                                            t.Hours,
+                                            t.Minutes,
+                                            t.Seconds,
+                                            t.Milliseconds);
+
+                        }@answer
+                    </div>
+                </div>
+                <div class="col-md-3   tile_stats_count">
+                    <span class="count_top"><i class="fa fa-clock-o"></i> Total Call time</span>
+                    <div class="count green">
+                        @{
+                            TimeSpan t2 = TimeSpan.FromSeconds(Model._UserReport.TotalCallTime);
+
+                            string answer2 = string.Format("{0:D2}:{1:D2}:{2:D2}",
+                                            t2.Hours,
+                                            t2.Minutes,
+                                            t2.Seconds,
+                                            t2.Milliseconds);
+
+                        }@answer2
+                    </div>
+                </div>
+                <div class="col-md-3   tile_stats_count">
+                    <span class="count_top"><i class="fa fa-money"></i> Total Cost</span>
+                    <div class="count">@Math.Round(Convert.ToDouble(Model._UserReport.TotalCost), 4)</div>
+                </div>
+
+
+            </div>
+        </div>
+        <!-- /top tiles -->
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12 ">
+                <div class="dashboard_graph">
+
+                    <div class="row x_title">
+                        <div class="col-md-6">
+                            <h3>Call Activities <small></small></h3>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-9 col-sm-9 ">
+                        <div id="world-map-gdp" class="col-md-12 col-sm-12 " style="height:230px;"></div>
+
+                    </div>
+                    <div class="col-md-3 col-sm-3  bg-white">
+                        <div class="x_title">
+                            <h2>Call Usage By Country</h2>
+                            <div class="clearfix"></div>
+                        </div>
+
+                        <div class="col-md-12 col-sm-12 ">
+                            @{
+                                var TotalCalls = Model._UserReport.TotalCountriesCalls.Select(x => x.Value).Sum();
+
+                            }
+                            @foreach (var item in Model._UserReport.TotalCountriesCalls)
+                            {
+                                var CountryCalls = (Convert.ToDouble(item.Value) / Convert.ToDouble(TotalCalls)) * 100;
+                                <div>
+                                    <p>@item.Text</p>
+                                    <div class="">
+                                        <div class="progress progress_sm" style="width: 75%;">
+                                            <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="@CountryCalls"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+
+                    </div>
+
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+        </div>
+        <br />
+
+        <div class="row">
+
+
+            <div class="col-md-12 col-sm-12 ">
+                <div class="x_panel tile fixed_height_320">
+                    <div class="x_title">
+                        <h2>Total Time Called By Countries</h2>
+
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+                        @{
+                            var TotalCallsTime = Model._UserReport.TotalCountriesCallsTime.Select(x => x.Value).Sum();
+
+                        }
+                        @foreach (var item in Model._UserReport.TotalCountriesCallsTime)
+                        {
+                            var CountryCalls = (Convert.ToDouble(item.Value) / Convert.ToDouble(TotalCallsTime)) * 100;
+
+                            <div class="widget_summary">
+                                <div class="w_left w_25">
+                                    <span>@item.Text</span>
+                                </div>
+                                <div class="w_center w_55">
+                                    <div class="progress">
+                                        <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:  @Html.Raw(CountryCalls+"%");">
+                                            <span class="sr-only">@CountryCalls% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="w_right w_20">
+                                    <span>
+                                        @{
+                                            TimeSpan t3 = TimeSpan.FromSeconds(item.Value);
+
+                                            string answer3 = string.Format("{0:D2}:{1:D2}:{2:D2}",
+                                                            t3.Hours,
+                                                            t3.Minutes,
+                                                            t3.Seconds);
+
+                                        }
+                                        @answer3
+                                    </span>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        }
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        
+     
+        </div>
+
+     
+        <div class="row">
+
+            <div class="col-md-12 col-sm-12 ">
+                <div class="x_panel">
+                    <div class="x_title">
+                        <h2>Recent PSTN  <small>Calls</small></h2>
+
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+                        <div class="dashboard-widget-content">
+                            <table class="table table-striped" id="datatable">
+                                <thead>
+                                    <tr>
+                                        <td>Call From</td>
+                                        <td>Call To</td>
+                                        <td>Start Time</td>
+                                        <td>End Time</td>
+                                        <td>Total Call Time</td>
+                                        <td>Cost</td>
+                                    </tr>
+
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model._UserReport.OutgoingCalls)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @item.CallerName
+                                            </td>
+                                            <td>
+                                                @item.CalleeNumber
+                                            </td>
+                                            <td>
+                                                @item.startDateTime.DateTime.ToShortTimeString()
+                                            </td>
+                                            <td>
+                                                @item.endDateTime.DateTime.ToShortTimeString()
+                                            </td>
+                                            <td>
+                                                @{
+                                                    TimeSpan t6 = TimeSpan.FromSeconds(item.TotalTime);
+
+                                                    string answer6 = string.Format("{0:D2}:{1:D2}:{2:D2}",
+                                                                    t6.Hours,
+                                                                    t6.Minutes,
+                                                                    t6.Seconds,
+                                                                    t6.Milliseconds);
+
+                                                }@answer6
+
+                                            </td>
+                                            <td>
+                                                @Math.Round(Convert.ToDouble(item.TotalCost), 3)
+                                            </td>
+                                        </tr>
+
+                                    }
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+<!-- /page content -->
+<!-- footer content -->
+<footer>
+    <div class="pull-right">
+        PAIS Group
+    </div>
+    <div class="clearfix"></div>
+</footer>
+<!-- /footer content -->
+<script>
+
+   
+
+    var Map_data = { @{var Mapcounter = 0;}@foreach (var item in Model._UserReport.MapData.OrderBy(x=>x.Value).ToList()) {
+                        Mapcounter += 1; if (Mapcounter ==  Model._UserReport.MapData.OrderBy(x=>x.Value).ToList().Count())
+                        {
+                           @Html.Raw("'" + item.Text + "':'"+item.Value+"'");
+                        }
+                        else {  @Html.Raw("'" + item.Text + "':'"+item.Value+"',"); } }};
+
+    function init_JQVmap() {
+
+
+
+
+        $('#world-map-gdp').vectorMap({
+            map: 'world_en',
+            backgroundColor: null,
+            color: '#ffffff',
+            hoverOpacity: 0.7,
+            selectedColor: '#666666',
+            enableZoom: true,
+            showTooltip: true,
+            values: Map_data,
+            scaleColors: ['#E6F2F0', '#149B7E'],
+            normalizeFunction: 'polynomial'
+        });
+
+
+
+};
+
+</script>

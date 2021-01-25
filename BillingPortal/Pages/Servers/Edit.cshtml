@@ -1,0 +1,76 @@
+﻿@page
+@model BillingPortal.Pages.Servers.EditModel
+@{
+}
+
+<div class="right_col" role="main">
+    <div class="">
+        <div class="page-title">
+            <div class="title_left">
+                <h3>Edit <small></small></h3>
+            </div>
+
+
+        </div>
+
+        <div class="clearfix"></div>
+        <div class="row" style="display: block;">
+            <div class="col-md-12 col-sm-12 ">
+                <div class="x_panel">
+                    <div class="x_title">
+                        <h2>Edit Session Border Controller </h2>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+                        <br>
+                        <form method="post" data-parsley-validate="" class="form-horizontal form-label-left" novalidate="">
+                            <input type="hidden" asp-for="_Servers._CompnayServerModel.id" />
+                            <div class="item form-group">
+                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">
+                                    Server Name <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 ">
+                                    <input type="text" asp-for="_Servers._CompnayServerModel.ServerName" required="required" class="form-control " />
+
+                                </div>
+                            </div>
+                            <div class="item form-group">
+                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">
+                                    Server IP <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 ">
+                                    <input type="text" asp-for="_Servers._CompnayServerModel.ServerIP" required="required" class="form-control " />
+
+                                </div>
+                            </div>
+                            <div class="item form-group">
+                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">
+                                    Server Location <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 ">
+                                    <select asp-for="_Servers._CompnayServerModel.Location" required="required" class="form-control ">
+                                        @foreach (var item in Model._Servers._Locations)
+                                        {
+                                            <option value="@item.countryname">@item.countryname</option>
+
+                                        }
+                                    </select>
+
+                                </div>
+                            </div>
+
+                            <div class="ln_solid"></div>
+                            <div class="item form-group">
+                                <div class="col-md-6 col-sm-6 offset-md-3">
+
+                                    <button type="submit" class="btn btn-success">Submit</button> |  <a asp-page="/Servers/Index">Cancel</a>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

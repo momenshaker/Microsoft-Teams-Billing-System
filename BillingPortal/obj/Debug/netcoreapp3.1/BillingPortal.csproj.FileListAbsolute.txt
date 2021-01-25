@@ -1,0 +1,379 @@
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\appsettings.json
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\BillingPortal.exe
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\BillingPortal.deps.json
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\BillingPortal.runtimeconfig.json
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\BillingPortal.runtimeconfig.dev.json
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\BillingPortal.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\BillingPortal.pdb
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\BillingPortal.Views.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\BillingPortal.Views.pdb
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.AzureAD.UI.Views.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.AzureAD.UI.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\staticwebassets\BillingPortal.StaticWebAssets.Manifest.cache
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\staticwebassets\BillingPortal.StaticWebAssets.xml
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.MvcApplicationPartsAssemblyInfo.cs
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.MvcApplicationPartsAssemblyInfo.cache
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.RazorAssemblyInfo.cache
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.RazorAssemblyInfo.cs
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.AssemblyInfoInputs.cache
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.AssemblyInfo.cs
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.TagHelpers.input.cache
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.TagHelpers.output.cache
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.RazorCoreGenerate.cache
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Countries\Edit.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Countries\Index.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\PhoneProviders\Create.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\PhoneProviders\EditProvider.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\PhoneProviders\Index.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Reports\AllInternalCalls.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Reports\AllOutgoingCalls.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Reports\CountryOutgoingReport.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Reports\IndividualOutgoingReport.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Reports\OutgoingCallsByCountry.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Reports\OutgoingCallsByUser.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Servers\Create.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Servers\Edit.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Servers\Index.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LayoutTables.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LoginPartial.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.RazorTargetAssemblyInfo.cache
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.RazorTargetAssemblyInfo.cs
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.Views.pdb
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.csproj.CopyComplete
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.dll
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.pdb
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.csprojAssemblyReference.cache
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.csproj.CoreCompileInputs.cache
+D:\BillingSystem\BillingSystemV4\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.genruntimeconfig.cache
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\appsettings.json
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\BillingPortal.exe
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\BillingPortal.deps.json
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\BillingPortal.runtimeconfig.json
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\BillingPortal.runtimeconfig.dev.json
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\BillingPortal.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\BillingPortal.pdb
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\BillingPortal.Views.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\BillingPortal.Views.pdb
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.AzureAD.UI.Views.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.AzureAD.UI.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.csprojAssemblyReference.cache
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.AssemblyInfoInputs.cache
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.AssemblyInfo.cs
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.RazorAssemblyInfo.cache
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.RazorAssemblyInfo.cs
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.TagHelpers.input.cache
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.TagHelpers.output.cache
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.RazorCoreGenerate.cache
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Countries\Edit.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Countries\Index.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\PhoneProviders\Create.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\PhoneProviders\EditProvider.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\PhoneProviders\Index.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Reports\AllInternalCalls.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Reports\AllOutgoingCalls.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Reports\CountryOutgoingReport.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Reports\IndividualOutgoingReport.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Reports\OutgoingCallsByCountry.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Reports\OutgoingCallsByUser.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Servers\Create.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Servers\Edit.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Servers\Index.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LayoutTables.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LoginPartial.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.RazorTargetAssemblyInfo.cache
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.RazorTargetAssemblyInfo.cs
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.Views.pdb
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.csproj.CopyComplete
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\staticwebassets\BillingPortal.StaticWebAssets.Manifest.cache
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\staticwebassets\BillingPortal.StaticWebAssets.xml
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.pdb
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.genruntimeconfig.cache
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Graph.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Graph.Core.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\RestSharp.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Azure.Core.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Azure.Identity.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Azure.Security.KeyVault.Certificates.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Azure.Security.KeyVault.Secrets.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Microsoft.Identity.Web.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\NCrontab.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\BillingPortalPais - Web Deploy\profile.arm.json
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\NPOI.OOXML.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\NPOI.OpenXml4Net.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\NPOI.OpenXmlFormats.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\NPOI.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\bin\Debug\netcoreapp3.1\ICSharpCode.SharpZipLib.dll
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.csproj.CoreCompileInputs.cache
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.MvcApplicationPartsAssemblyInfo.cs
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\BillingPortal.MvcApplicationPartsAssemblyInfo.cache
+D:\BillingSystem\BillingSystemV4 - Copy\BillingPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Reports\Export.cshtml.g.cs

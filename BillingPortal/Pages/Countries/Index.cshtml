@@ -1,0 +1,75 @@
+﻿@page
+@model BillingPortal.Pages.Countries.IndexModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_LayoutTables";
+}
+<div class="right_col" role="main">
+    <div class="">
+        <div class="page-title">
+            <div class="title_left">
+                <h3>Countries <small>List of all avaliable countries</small></h3>
+            </div>
+
+
+        </div>
+
+        <div class="clearfix"></div>
+        <div class="row" style="display: block;">
+            <div class="col-md-12 col-sm-12  ">
+                <div class="x_panel">
+                    <div class="x_title">
+                        <h2>List of countries <small></small></h2>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+
+                        <table class="table" id="datatable">
+                            <thead>
+                                <tr>
+                                    <th>Iso</th>
+                                    <th>Name</th>
+                                    <th>Code</th>
+                                    <th>Calculate Per Minute</th>
+                                    <th>Calculate Per Second</th>
+                                    <th>Cost Per Minute/Second</th>
+                                    <th>By Providers Codes</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model._country)
+                                {
+
+                                    <tr>
+                                        <td> @item.iso </td>
+                                        <td>@item.countryname</td>
+                                        <td>@item.phonecode</td>
+                                        <td>@item.PerMinute</td>
+                                        <td>@item.PerSecond</td>
+                                        <td>@item.CostPerMinute</td>
+                                        <td>@item.SubPhones</td>
+                                        <td>
+                                            <a asp-page="/Countries/Edit" asp-route-id="@item.id" class="btn btn-info">Edit</a>
+                                            @if (item.SubPhones)
+                                            {
+
+                                                @Html.Raw("|") <a asp-page="/PhoneProviders/Index" asp-route-id="@item.countryname.Replace(" ","-")" class="btn btn-info">Add Local Phone Providers</a>
+
+
+                                            }
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>

@@ -1,0 +1,106 @@
+﻿@page
+@model BillingPortal.Pages.PhoneProviders.CreateModel
+@{
+}
+
+<div class="right_col" role="main">
+    <div class="">
+        <div class="page-title">
+            <div class="title_left">
+                <h3>Edit <small></small></h3>
+            </div>
+
+
+        </div>
+
+        <div class="clearfix"></div>
+        <div class="row" style="display: block;">
+            <div class="col-md-12 col-sm-12 ">
+                <div class="x_panel">
+                    <div class="x_title">
+                        <h2>Edit Country Phone Provider <small>Form For : @ViewData["Country"]</small></h2>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+                        <br>
+                        <form method="post" data-parsley-validate="" class="form-horizontal form-label-left" novalidate="">
+                         
+                            <div class="item form-group">
+                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">
+                                    Provider Name <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 ">
+                                    <input type="text" asp-for="_SubPhones._SubPhones.ProviderName" required="required" class="form-control " />
+
+                                </div>
+                            </div>
+                            <div class="item form-group">
+                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">
+                                    Phone Code <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 ">
+                                    <input type="text" asp-for="_SubPhones._SubPhones.phonecode" required="required" class="form-control " />
+
+                                </div>
+                            </div>
+
+                            <div class="item form-group">
+                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">
+                                    Cost Per Minute/Second <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 ">
+                                    <input type="text" asp-for="_SubPhones._SubPhones.CostPerMinute" required="required" class="form-control " />
+
+                                </div>
+                            </div>
+                            <div class="item form-group">
+                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">
+                                    Calucate Per Minute  <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 ">
+                                    <input type="checkbox" asp-for="_SubPhones._SubPhones.PerMinute" />
+
+                                </div>
+                            </div>
+                            <div class="item form-group">
+                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">
+                                    Calucate Per Second <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 ">
+                                    <input type="checkbox" asp-for="_SubPhones._SubPhones.PerSecond" />
+
+                                </div>
+                            </div>
+
+                            <div class="item form-group">
+                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">
+                                    Server Location <span class="required">*</span>
+                                </label>
+                                <div class="col-md-6 col-sm-6 ">
+                                    <select asp-for="_SubPhones._SubPhones.Server" required="required" class="form-control ">
+                                        @foreach (var item in Model._SubPhones.CompanyServers)
+                                        {
+                                            <option value="@item.id">@item.ServerName</option>
+
+                                        }
+                                    </select>
+
+                                </div>
+                            </div>
+
+
+                            <div class="ln_solid"></div>
+                            <div class="item form-group">
+                                <div class="col-md-6 col-sm-6 offset-md-3">
+
+                                    <button type="submit" class="btn btn-success">Submit</button> |  <a asp-page="/PhoneProviders/Index" asp-route-id="@ViewData["Country"]">Cancel</a>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

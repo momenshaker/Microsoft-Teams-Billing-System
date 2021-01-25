@@ -1,0 +1,89 @@
+﻿@page
+@model BillingPortal.Pages.Reports.AllInternalCallsModel
+@{
+    Layout = "_LayoutTables";
+}
+    <div class="right_col" role="main">
+        <div class="">
+            <div class="page-title">
+                <div class="title_left">
+                    <h3>Records <small>List of all Internal Calls</small></h3>
+                </div>
+
+
+            </div>
+
+            <div class="clearfix"></div>
+            <div class="row" style="display: block;">
+                <div class="col-md-12 col-sm-12  ">
+                    <div class="x_panel">
+                        <div class="x_title">
+                            <h2>List of Internal Calls <small></small></h2>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="x_content">
+                            <table class="table " id="datatable">
+                                <thead>
+                                    <tr>
+                                        <td>Call From</td>
+                                        <td>Call To</td>
+                                        <td>Date</td>
+                                        <td>Start Time</td>
+                                        <td>End Time</td>
+                                        <td>Total Call Time</td>
+                                 
+                                    </tr>
+
+                                </thead>
+                                <tbody>
+                               
+                                    @foreach (var item in Model._RecordsTable)
+                                    {
+                                    <tr>
+                                        <td>
+                                            @item.CallerName
+                                        </td>
+                                        <td>
+                                            @item.CalleeName
+                                        </td>
+                                        <td>
+                                            @item.endDateTime.DateTime.AddHours(3).ToShortDateString()
+                                        </td>
+                                        <td>
+                                            @item.startDateTime.DateTime.AddHours(3).ToShortTimeString()
+                                        </td>
+                                        <td>
+                                            @item.endDateTime.DateTime.AddHours(3).ToShortTimeString()
+                                        </td>
+
+                                        <td>
+                                            @{
+                                                TimeSpan t6 = TimeSpan.FromSeconds(item.TotalTime);
+
+                                                string answer6 = string.Format("{0:D2}:{1:D2}:{2:D2}",
+                                                                t6.Hours,
+                                                                t6.Minutes,
+                                                                t6.Seconds,
+                                                                t6.Milliseconds);
+
+                                            }@answer6
+
+                                        </td>
+
+                                    </tr>
+
+                                    }
+                                </tbody>
+                            </table>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>

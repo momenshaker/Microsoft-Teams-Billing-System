@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\BillingSystem\\BillingSystemV4 - Copy\\BillingWorker\\BillingWorker.csproj": {}
+    "E:\\Projects\\Billing System\\Microsoft-Teams-Billing-System\\BillingWorker\\BillingWorker.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\BillingSystem\\BillingSystemV4 - Copy\\BillingWorker\\BillingWorker.csproj": {
+    "E:\\Projects\\Billing System\\Microsoft-Teams-Billing-System\\BillingWorker\\BillingWorker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\BillingSystem\\BillingSystemV4 - Copy\\BillingWorker\\BillingWorker.csproj",
+        "projectUniqueName": "E:\\Projects\\Billing System\\Microsoft-Teams-Billing-System\\BillingWorker\\BillingWorker.csproj",
         "projectName": "BillingWorker",
-        "projectPath": "D:\\Projects\\BillingSystem\\BillingSystemV4 - Copy\\BillingWorker\\BillingWorker.csproj",
-        "packagesPath": "C:\\Users\\momens\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\BillingSystem\\BillingSystemV4 - Copy\\BillingWorker\\obj\\",
+        "projectPath": "E:\\Projects\\Billing System\\Microsoft-Teams-Billing-System\\BillingWorker\\BillingWorker.csproj",
+        "packagesPath": "C:\\Users\\momen\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\Billing System\\Microsoft-Teams-Billing-System\\BillingWorker\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\momens\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\momen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -40,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -85,14 +84,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

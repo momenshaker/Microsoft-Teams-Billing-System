@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BillingPortal.Helpers;
+using BillingPortal.Infrasturcture.Interfaces;
+using BillingPortal.Infrasturcture.Services;
 using BillingPortal.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.AzureAD.UI;
@@ -32,8 +34,7 @@ namespace BillingPortal
             services.AddAuthentication(AzureADDefaults.AuthenticationScheme)
                 .AddAzureAD(options => Configuration.Bind("AzureAd", options));
             services.AddDbContext<DatabaseContext>();
-            services.Configure<KeyVaultOptions>(Configuration.GetSection("KeyVaultSettings"));
-            services.Configure<SubscriptionOptions>(Configuration.GetSection("SubscriptionSettings"));
+            services.AddScoped<IFetchData, FetchData>();
 
             services.AddControllers();
             services.AddRazorPages().AddMvcOptions(options =>

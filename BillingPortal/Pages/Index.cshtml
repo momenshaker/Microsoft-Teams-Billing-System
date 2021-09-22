@@ -91,12 +91,12 @@
 
                     <div class="col-md-12 col-sm-12 ">
                         @{
-                                var TotalCalls = Model._IndexModelView.TotalCountriesCalls.Select(x => x.Value).Sum();
+                            var TotalCalls = Model._IndexModelView.TotalCountriesCalls.Select(x => x.Value).Sum();
 
                         }
                         @foreach (var item in Model._IndexModelView.TotalCountriesCalls)
-                            {
-                                var CountryCalls = (Convert.ToDouble(item.Value) / Convert.ToDouble(TotalCalls)) * 100;
+                        {
+                            var CountryCalls = (Convert.ToDouble(item.Value) / Convert.ToDouble(TotalCalls)) * 100;
                         <div>
                             <p>@item.Text</p>
                             <div class="">
@@ -105,7 +105,7 @@
                                 </div>
                             </div>
                         </div>
-                            }
+                        }
                     </div>
 
                 </div>
@@ -116,7 +116,7 @@
 
     </div>
     <br />
-    }
+                            }
     @if (Model._IndexModelView.TotalCountriesCallsTime != null && Model._IndexModelView.TotalCountriesCallsTime.Count != 0)
     {
     <div class="row">
@@ -131,12 +131,12 @@
                 </div>
                 <div class="x_content">
                     @{
-                            var TotalCallsTime = Model._IndexModelView.TotalCountriesCallsTime.Select(x => x.Value).Sum();
+                        var TotalCallsTime = Model._IndexModelView.TotalCountriesCallsTime.Select(x => x.Value).Sum();
 
                     }
                     @foreach (var item in Model._IndexModelView.TotalCountriesCallsTime)
-                        {
-                            var CountryCalls = (Convert.ToDouble(item.Value) / Convert.ToDouble(TotalCallsTime)) * 100;
+                    {
+                        var CountryCalls = (Convert.ToDouble(item.Value) / Convert.ToDouble(TotalCallsTime)) * 100;
 
                     <div class="widget_summary">
                         <div class="w_left w_25">
@@ -152,12 +152,12 @@
                         <div class="w_right w_20">
                             <span>
                                 @{
-                                            TimeSpan t3 = TimeSpan.FromSeconds(item.Value);
+                                    TimeSpan t3 = TimeSpan.FromSeconds(item.Value);
 
-                                            string answer3 = string.Format("{0:D2}:{1:D2}:{2:D2}",
-                                                            t3.Hours,
-                                                            t3.Minutes,
-                                                            t3.Seconds);
+                                    string answer3 = string.Format("{0:D2}:{1:D2}:{2:D2}",
+                                                    t3.Hours,
+                                                    t3.Minutes,
+                                                    t3.Seconds);
 
                                 }
                                 @answer3
@@ -165,139 +165,18 @@
                         </div>
                         <div class="clearfix"></div>
                     </div>
-                        }
-
-
-
-
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-4 col-sm-4 ">
-            <div class="x_panel tile fixed_height_320 overflow_hidden">
-                <div class="x_title">
-                    <h2>Servers Usage</h2>
-
-                    <div class="clearfix"></div>
-                </div>
-                <div class="x_content">
-                    <table class="" style="width:100%">
-                        <tr>
-                            <th style="width:37%;">
-                                <p>Top 5</p>
-                            </th>
-                            <th>
-                                <div class="col-lg-7 col-md-7 col-sm-7 ">
-                                    <p class="">Device</p>
-                                </div>
-                                <div class="col-lg-5 col-md-5 col-sm-5 ">
-                                    <p class="">Progress</p>
-                                </div>
-                            </th>
-                        </tr>
-                        <tr>
-                            <td>
-                                <canvas class="canvasDoughnut" height="140" width="140" style="margin: 15px 10px 10px 0"></canvas>
-                            </td>
-                            <td>
-                                <table class="tile_info">
-                                    @{
-                                            var TotalDeviceUsage = Model._IndexModelView.DevicesUses.OrderBy(x => x.Value).Take(5).ToList().Select(x => x.Value).Sum();
-
                                     }
-                                    @foreach (var item in Model._IndexModelView.DevicesUses.OrderBy(x => x.Value).Take(5).ToList())
-                                        {
-                                            var CountryCalls = (Convert.ToDouble(item.Value) / Convert.ToDouble(TotalDeviceUsage)) * 100;
-                                    <tr>
-                                        <td>
-                                            <p>
-                                                @if (counter2 == 1)
-                                                        {
-                                                <i class="fa fa-square blue"></i>@if (!string.IsNullOrEmpty(item.Text))
-                                                            {
-                                                @Html.Raw(item.Text)
-
-                                                            }
-                                                            else
-                                                            {
-                                                @Html.Raw("Mobile")
-
-                                                            }}
-                                                        else if (counter2 == 2)
-                                                        {
-
-                                                <i class="fa fa-square green"></i>@if (!string.IsNullOrEmpty(item.Text))
-                                                            {
-                                                @Html.Raw(item.Text)
-
-                                                            }
-                                                            else
-                                                            {
-                                                @Html.Raw("Mobile")
-
-                                                            }
-                                                        }
-                                                        else if (counter2 == 3)
-                                                        {
-
-                                                <i class="fa fa-square purple"></i>@if (!string.IsNullOrEmpty(item.Text))
-                                                            {
-                                                @Html.Raw(item.Text)
-
-                                                            }
-                                                            else
-                                                            {
-                                                @Html.Raw("Mobile")
-
-                                                            }
-                                                        }
-                                                        else if (counter2 == 4)
-                                                        {
-
-                                                <i class="fa fa-square aero"></i>@if (!string.IsNullOrEmpty(item.Text))
-                                                            {
-                                                @Html.Raw(item.Text)
-
-                                                            }
-                                                            else
-                                                            {
-                                                @Html.Raw("Mobile")
-
-                                                            }
-                                                        }
-                                                        else if (counter2 == 5)
-                                                        {
-
-                                                <i class="fa fa-square red"></i>@if (!string.IsNullOrEmpty(item.Text))
-                                                            {
-                                                @Html.Raw(item.Text)
-
-                                                            }
-                                                            else
-                                                            {
-                                                @Html.Raw("Mobile")
-
-                                                            }
-                                                        }
-                                                @{ counter2 += 1; }
-                                            </p>
-                                        </td>
-                                        <td>@Math.Round(CountryCalls, 2)%</td>
-                                    </tr>
-                                        }
 
 
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
+
+
                 </div>
             </div>
         </div>
 
+  
 
-        <div class="col-md-4 col-sm-4 ">
+        <div class="col-md-8 col-sm-8">
             <div class="x_panel tile fixed_height_320">
                 <div class="x_title">
                     <h2>Top 5 PSTN Calls Usage By User</h2>
@@ -306,12 +185,12 @@
                 </div>
                 <div class="x_content">
                     @{
-                            var TotalCallsByUser = Model._IndexModelView.MostPersonUsage.Select(x => x.Value).Sum();
+                        var TotalCallsByUser = Model._IndexModelView.MostPersonUsage.Select(x => x.Value).Sum();
 
                     }
                     @foreach (var item in Model._IndexModelView.MostPersonUsage)
-                        {
-                            var CountryCalls = (Convert.ToDouble(item.Value) / Convert.ToDouble(TotalCallsByUser)) * 100;
+                    {
+                        var CountryCalls = (Convert.ToDouble(item.Value) / Convert.ToDouble(TotalCallsByUser)) * 100;
 
                     <div class="widget_summary">
                         <div class="w_left w_25">
@@ -327,20 +206,20 @@
                         <div class="w_right w_20">
                             <span>
                                 @{
-                                            TimeSpan t4 = TimeSpan.FromSeconds(item.Value);
+                                    TimeSpan t4 = TimeSpan.FromSeconds(item.Value);
 
-                                            string answer4 = string.Format("{0:D2}:{1:D2}:{2:D2}",
-                                                            t4.Hours,
-                                                            t4.Minutes,
-                                                            t4.Seconds,
-                                                            t4.Milliseconds);
+                                    string answer4 = string.Format("{0:D2}:{1:D2}:{2:D2}",
+                                                    t4.Hours,
+                                                    t4.Minutes,
+                                                    t4.Seconds,
+                                                    t4.Milliseconds);
 
                                 }@answer4
                             </span>
                         </div>
                         <div class="clearfix"></div>
                     </div>
-                        }
+                                    }
 
 
 
@@ -352,12 +231,12 @@
 
     </div>
 
-    }
+                                    }
     @if (Model._IndexModelView.OutgoingCalls != null && Model._IndexModelView.OutgoingCalls.Count != 0)
     {
     <div class="row">
 
-        <div class="col-md-6 col-sm-6 ">
+        <div class="col-md-12 col-sm-12 ">
             <div class="x_panel">
                 <div class="x_title">
                     <h2>Recent PSTN  <small>Calls</small></h2>
@@ -380,7 +259,7 @@
                             </thead>
                             <tbody>
                                 @foreach (var item in Model._IndexModelView.OutgoingCalls)
-                                    {
+                                {
                                 <tr>
                                     <td>
                                         @item.CallerName
@@ -396,13 +275,13 @@
                                     </td>
                                     <td>
                                         @{
-                                                    TimeSpan t6 = TimeSpan.FromSeconds(item.TotalTime);
+                                            TimeSpan t6 = TimeSpan.FromSeconds(item.TotalTime);
 
-                                                    string answer6 = string.Format("{0:D2}:{1:D2}:{2:D2}",
-                                                                    t6.Hours,
-                                                                    t6.Minutes,
-                                                                    t6.Seconds,
-                                                                    t6.Milliseconds);
+                                            string answer6 = string.Format("{0:D2}:{1:D2}:{2:D2}",
+                                                            t6.Hours,
+                                                            t6.Minutes,
+                                                            t6.Seconds,
+                                                            t6.Milliseconds);
 
                                         }@answer6
 
@@ -412,7 +291,7 @@
                                     </td>
                                 </tr>
 
-                                    }
+                                            }
                             </tbody>
                         </table>
 
@@ -420,125 +299,14 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6 col-sm-6 ">
-            <div class="x_panel">
-                <div class="x_title">
-                    <h2>Recent Internal  <small>Calls</small></h2>
-
-                    <div class="clearfix"></div>
-                </div>
-                <div class="x_content">
-                    <div class="dashboard-widget-content">
-                        <table class="table table-striped">
-                            <thead>
-                                <tr>
-                                    <td>Call From</td>
-                                    <td>Call To</td>
-                                    <td>Start Time</td>
-
-                                    <td>Total Call Time</td>
-
-                                    <td>End Time</td>
-                                </tr>
-
-                            </thead>
-                            <tbody>
-                                @foreach (var item in Model._IndexModelView.InternalCalls)
-                                    {
-                                <tr>
-                                    <td>
-                                        @item.CallerName
-                                    </td>
-                                    <td>
-                                        @item.CalleeName
-                                    </td>
-                                    <td>
-                                        @item.startDateTime.DateTime.ToShortTimeString()
-                                    </td>
-                                    <td>
-                                        @item.endDateTime.DateTime.ToShortTimeString()
-                                    </td>
-                                    <td>
-                                        @{
-                                                    TimeSpan t7 = TimeSpan.FromSeconds(item.TotalTime);
-
-                                                    string answer7 = string.Format("{0:D2}:{1:D2}:{2:D2}",
-                                                                    t7.Hours,
-                                                                    t7.Minutes,
-                                                                    t7.Seconds,
-                                                                    t7.Milliseconds);
-
-                                        }@answer7
-
-                                    </td>
-                                </tr>
-
-                                    }
-                            </tbody>
-                        </table>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
+     
 
     </div>}
     @if (Model._IndexModelView.MostPersonUsageInternal != null && Model._IndexModelView.MostPersonUsageInternal.Count != 0)
     {
     <div class="row">
-        <div class="col-md-4 col-sm-4 ">
-            <div class="x_panel tile fixed_height_320">
-                <div class="x_title">
-                    <h2>Top 5 Internal Call Usage By User</h2>
-
-                    <div class="clearfix"></div>
-                </div>
-                <div class="x_content">
-                    @{
-                            var TotalCallsByUserInternal = Model._IndexModelView.MostPersonUsageInternal.Select(x => x.Value).Sum();
-
-                    }
-                    @foreach (var item in Model._IndexModelView.MostPersonUsageInternal)
-                        {
-                            var CountryCalls = (Convert.ToDouble(item.Value) / Convert.ToDouble(TotalCallsByUserInternal)) * 100;
-
-                    <div class="widget_summary">
-                        <div class="w_left w_25">
-                            <span>@item.Text</span>
-                        </div>
-                        <div class="w_center w_55">
-                            <div class="progress">
-                                <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: @Html.Raw(CountryCalls + "%");">
-                                    <span class="sr-only">@CountryCalls% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="w_right w_20">
-                            <span>
-                                @{
-                                            TimeSpan t5 = TimeSpan.FromSeconds(item.Value);
-
-                                            string answer5 = string.Format("{0:D2}:{1:D2}:{2:D2}",
-                                                            t5.Hours,
-                                                            t5.Minutes,
-                                                            t5.Seconds,
-                                                            t5.Milliseconds);
-
-                                }@answer5
-                            </span>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                        }
-
-
-
-
-                </div>
-            </div>
-        </div>
-        <div class="col-md-8 col-sm-8 ">
+    
+        <div class="col-md-12 col-sm-12 ">
             <div class="x_panel tile fixed_height_320">
                 <div class="x_title">
                     <h2>Top Call Cost By User</h2>
@@ -547,12 +315,12 @@
                 </div>
                 <div class="x_content">
                     @{
-                            var TotalCallsByUserCost = Model._IndexModelView.MostPersonUsageCost.Select(x => x.Value).Sum();
+                        var TotalCallsByUserCost = Model._IndexModelView.MostPersonUsageCost.Select(x => x.Value).Sum();
 
                     }
                     @foreach (var item in Model._IndexModelView.MostPersonUsageCost)
-                        {
-                            var CountryCalls = (Convert.ToDouble(item.Value) / Convert.ToDouble(TotalCallsByUserCost)) * 100;
+                    {
+                        var CountryCalls = (Convert.ToDouble(item.Value) / Convert.ToDouble(TotalCallsByUserCost)) * 100;
 
                     <div class="widget_summary">
                         <div class="w_left w_25">
@@ -572,7 +340,7 @@
                         </div>
                         <div class="clearfix"></div>
                     </div>
-                        }
+                    }
 
 
 
@@ -582,7 +350,7 @@
         </div>
 
     </div>
-    }
+                        }
 </div>
 <!-- /page content -->
 <!-- footer content -->
@@ -593,92 +361,26 @@
     <div class="clearfix"></div>
 </footer>
 <!-- /footer content -->
-@{var counter3 = 0;var counter = 0;var Mapcounter = 0;}
+@{var counter3 = 0; var counter = 0; var Mapcounter = 0;}
 <script>
 
-        function init_chart_doughnut() {
+       
 
-        if (typeof (Chart) === 'undefined') { return; }
 
-        console.log('init_chart_doughnut');
-
-        if ($('.canvasDoughnut').length) {
-
-            var chart_doughnut_settings = {
-                type: 'doughnut',
-                tooltipFillColor: "rgba(51, 51, 51, 0.55)",
-                data: {
-                    labels: [
-                     @if (Model._IndexModelView.DevicesUses.Count != 0 ){@foreach (var item in Model._IndexModelView.DevicesUses.OrderBy(x => x.Value).Take(5).ToList())
+    var Map_data = {
+            @if (Model._IndexModelView != null)
+            {    @if (Model._IndexModelView.MapData.Count != 0)
+                {@foreach (var item in Model._IndexModelView.MapData.OrderBy(x => x.Value).ToList())
+                    {
+                        Mapcounter += 1; if (Mapcounter == Model._IndexModelView.MapData.OrderBy(x => x.Value).ToList().Count())
                         {
-                            counter += 1; if (counter == Model._IndexModelView.DevicesUses.OrderBy(x => x.Value).Take(5).ToList().Count())
-                            {
-                               @Html.Raw("'" + item.Text + "'");
-                            }
-                            else
-                            {  @Html.Raw("'" + item.Text + "',");
-                            }
-    }}
-                    ],
-                    datasets: [{
-                            data: [@if (Model._IndexModelView.DevicesUses.Count != 0){@foreach (var item in Model._IndexModelView.DevicesUses.OrderBy(x => x.Value).Take(5).ToList())
-                            {
-                                counter2 += 1; if (counter3 == Model._IndexModelView.DevicesUses.OrderBy(x => x.Value).Take(5).ToList().Count())
-                                {
-                               @Html.Raw("'" + item.Value + "'");
-                                }
-                                else
-                                {  @Html.Raw("'" + item.Value + "',");
-                                }
-    }}],
-                        backgroundColor: [
-                        @if (Model._IndexModelView.DevicesUses.Count != 0 ){       @if (counter >= 1)
-                            {
-                           @Html.Raw("'#3498DB',")}
-                                     @if (counter >= 2)
-                                     {
-                       @Html.Raw("'#26B99A',") }
-                                              @if (counter >= 3)
-                                              {
-                           @Html.Raw("'#9B59B6',")}
-                                                       @if (counter >= 4)
-                                                       {
-                              @Html.Raw("'#BDC3C7',")}
-                                                                @if (counter >= 5)
-                                                                {
-                          @Html.Raw("'#E74C3C',") }}
-
-                        ],
-
-                    }]
-                },
-                options: {
-                            legend: false,
-                    responsive: false
-                }
-                        }
-
-            $('.canvasDoughnut').each(function () {
-
-                var chart_element = $(this);
-                var chart_doughnut = new Chart(chart_element, chart_doughnut_settings);
-
-            });
-
-        }
-
-        }
-
-        var Map_data = {@if(Model._IndexModelView.MapData.Count != 0){@foreach (var item in Model._IndexModelView.MapData.OrderBy(x => x.Value).ToList())
-        {
-            Mapcounter += 1; if (Mapcounter == Model._IndexModelView.MapData.OrderBy(x => x.Value).ToList().Count())
-            {
                                @Html.Raw("'" + item.Text + "':'" + item.Value + "'");
-            }
-            else
-            {  @Html.Raw("'" + item.Text + "':'" + item.Value + "',");
-            }
-        }}};
+                        }
+                        else
+                        {  @Html.Raw("'" + item.Text + "':'" + item.Value + "',");
+                        }
+                    }}}
+            };
 
         function init_JQVmap() {
 

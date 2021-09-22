@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BillingPortal.Infrasturcture.Interfaces;
 using BillingPortal.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -13,17 +14,23 @@ namespace BillingPortal.Pages
     {
         private readonly ILogger<IndexModel> _logger;
         private readonly DatabaseContext _context;
+        private readonly IFetchData _fetchData;
 
-        public IndexModel(ILogger<IndexModel> logger, DatabaseContext context)
+        public IndexModel(ILogger<IndexModel> logger, DatabaseContext context, IFetchData fetchData)
         {
             _logger = logger;
             _context = context;
+            _fetchData= fetchData;
+
+
         }
         [BindProperty]
         public IndexModelView _IndexModelView { get; set; }
 
         public void OnGet()
         {
+            _fetchData.GetRecordsAsync();
+
             var peertopeerstring = "peerToPeer";
             var GetAllRecords = _context.recordsTables.Where(x => x.type == peertopeerstring).ToList();
             if (GetAllRecords != null && GetAllRecords.Count != 0)

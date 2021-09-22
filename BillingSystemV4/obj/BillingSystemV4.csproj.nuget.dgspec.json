@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\BillingSystem\\BillingSystemV4 - Copy\\BillingSystemV4\\BillingSystemV4.csproj": {}
+    "E:\\Projects\\Billing System\\Microsoft-Teams-Billing-System\\BillingSystemV4\\BillingSystemV4.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\BillingSystem\\BillingSystemV4 - Copy\\BillingSystemV4\\BillingSystemV4.csproj": {
+    "E:\\Projects\\Billing System\\Microsoft-Teams-Billing-System\\BillingSystemV4\\BillingSystemV4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\BillingSystem\\BillingSystemV4 - Copy\\BillingSystemV4\\BillingSystemV4.csproj",
+        "projectUniqueName": "E:\\Projects\\Billing System\\Microsoft-Teams-Billing-System\\BillingSystemV4\\BillingSystemV4.csproj",
         "projectName": "BillingSystemV4",
-        "projectPath": "D:\\Projects\\BillingSystem\\BillingSystemV4 - Copy\\BillingSystemV4\\BillingSystemV4.csproj",
-        "packagesPath": "C:\\Users\\momens\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\BillingSystem\\BillingSystemV4 - Copy\\BillingSystemV4\\obj\\",
+        "projectPath": "E:\\Projects\\Billing System\\Microsoft-Teams-Billing-System\\BillingSystemV4\\BillingSystemV4.csproj",
+        "packagesPath": "C:\\Users\\momen\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\Billing System\\Microsoft-Teams-Billing-System\\BillingSystemV4\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\momens\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\momen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -40,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -90,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

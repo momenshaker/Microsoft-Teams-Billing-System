@@ -14,14 +14,9 @@ namespace BillingPortal.Models
         public DbSet<country> country { get; set; }
         public DbSet<SubPhones> SubPhones { get; set; }
         public DbSet<CompanyServers> CompanyServers { get; set; }
-        public DbSet<SubscriptionChecker> SubscriptionChecker { get; set; }
         public DbSet<ExportedFiles> ExportedFiles { get; set; }
-        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        //{
-        //    //optionsBuilder.UseSqlServer("Server=192.168.1.175;database=BillingTeamsv1.0;User Id=sa;Password=123");
-        //    optionsBuilder.UseSqlServer("Server=(LocalDb)\\MSSQLLocalDB;database=BillingV1;Trusted_Connection=True;");
-        //}
+      
         protected override void OnConfiguring(DbContextOptionsBuilder options)
-           => options.UseSqlite("Data Source=" + Path.Combine(@"C:\DB\IVRDATA3.db"));
+           => options.UseSqlite("Data Source=" + Path.Combine(@"E:\DB\IVRDATA3.db"));
     }
 }

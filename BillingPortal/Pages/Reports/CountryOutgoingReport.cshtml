@@ -1,136 +1,150 @@
 ﻿@page
 @model BillingPortal.Pages.Reports.CountryOutgoingReportModel
-
-    <!-- page content -->
-    <div class="right_col" role="main">
-        <!-- top tiles -->
-        <div class="row" style="display: inline-block;    width: 100%;">
-            <div class="tile_count col-sm-12">
-                <div class="col-md-2  tile_stats_count">
-                    <span class="count_top"><i class="fa fa-user"></i> Total Calls</span>
-                    <div class="count">@Model._UserReport.TotalCalls</div>
-                </div>
-                <div class="col-md-3   tile_stats_count">
-                    <span class="count_top"><i class="fa fa-clock-o"></i> Average Call Time</span>
-                    <div class="count">
-                        @{
-                            TimeSpan t = TimeSpan.FromSeconds(Model._UserReport.AvarageCallTime);
-
-                            string answer = string.Format("{0:D2}:{1:D2}:{2:D2}",
-                                            t.Hours,
-                                            t.Minutes,
-                                            t.Seconds,
-                                            t.Milliseconds);
-
-                        }@answer
-                    </div>
-                </div>
-                <div class="col-md-3   tile_stats_count">
-                    <span class="count_top"><i class="out fa-clock-o"></i> Total Call time</span>
-                    <div class="count green">
-                        @{
-                            TimeSpan t2 = TimeSpan.FromSeconds(Model._UserReport.TotalCallTime);
-
-                            string answer2 = string.Format("{0:D2}:{1:D2}:{2:D2}",
-                                            t2.Hours,
-                                            t2.Minutes,
-                                            t2.Seconds,
-                                            t2.Milliseconds);
-
-                        }@answer2
-                    </div>
-                </div>
-                <div class="col-md-3   tile_stats_count">
-                    <span class="count_top"><i class="fa fa-money"></i> Total Cost</span>
-                    <div class="count">@Math.Round(Convert.ToDouble(Model._UserReport.TotalCost), 4)</div>
-                </div>
-
-
+<!-- page content -->
+<div class="right_col" role="main">
+    <!-- top tiles -->
+    <div class="row" style="display: inline-block;    width: 100%;">
+        <div class="tile_count col-sm-12">
+            <div class="col-md-2  tile_stats_count">
+                <span class="count_top"><i class="fa fa-user"></i> Total Calls</span>
+                <div class="count">@Model._UserReport.TotalCalls</div>
             </div>
-        </div>
-        <!-- /top tiles -->
+            <div class="col-md-3   tile_stats_count">
+                <span class="count_top"><i class="fa fa-clock-o"></i> Average Call Time</span>
+                <div class="count">
+                    @{
+                        TimeSpan t = TimeSpan.FromSeconds(Model._UserReport.AvarageCallTime);
 
+                        string answer = string.Format("{0:D2}:{1:D2}:{2:D2}",
+                                        t.Hours,
+                                        t.Minutes,
+                                        t.Seconds,
+                                        t.Milliseconds);
 
-
-        <div class="row">
-
-            <div class="col-md-12 col-sm-12 ">
-                <div class="x_panel">
-                    <div class="x_title">
-                        <h2>Recent PSTN  <small>Calls</small></h2>
-
-                        <div class="clearfix"></div>
-                    </div>
-                    <div class="x_content">
-                        <div class="dashboard-widget-content">
-                            <table class="table table-striped" id="datatable">
-                                <thead>
-                                    <tr>
-                                        <td>Call From</td>
-                                        <td>Call To</td>
-                                        <td>Start Time</td>
-                                        <td>End Time</td>
-                                        <td>Total Call Time</td>
-                                        <td>Cost</td>
-                                    </tr>
-
-                                </thead>
-                                <tbody>
-                                    @foreach (var item in Model._UserReport.OutgoingCalls)
-                                    {
-                                        <tr>
-                                            <td>
-                                                @item.CallerName
-                                            </td>
-                                            <td>
-                                                @item.CalleeNumber
-                                            </td>
-                                            <td>
-                                                @item.startDateTime.DateTime.ToShortTimeString()
-                                            </td>
-                                            <td>
-                                                @item.endDateTime.DateTime.ToShortTimeString()
-                                            </td>
-                                            <td>
-                                                @{
-                                                    TimeSpan t6 = TimeSpan.FromSeconds(item.TotalTime);
-
-                                                    string answer6 = string.Format("{0:D2}:{1:D2}:{2:D2}",
-                                                                    t6.Hours,
-                                                                    t6.Minutes,
-                                                                    t6.Seconds,
-                                                                    t6.Milliseconds);
-
-                                                }@answer6
-
-                                            </td>
-                                            <td>
-                                                @Math.Round(Convert.ToDouble(item.TotalCost), 3)
-                                            </td>
-                                        </tr>
-
-                                    }
-                                </tbody>
-                            </table>
-
-                        </div>
-                    </div>
+                    }@answer
                 </div>
+            </div>
+            <div class="col-md-3   tile_stats_count">
+                <span class="count_top"><i class="out fa-clock-o"></i> Total Call time</span>
+                <div class="count green">
+                    @{
+                        TimeSpan t2 = TimeSpan.FromSeconds(Model._UserReport.TotalCallTime);
+
+                        string answer2 = string.Format("{0:D2}:{1:D2}:{2:D2}",
+                                        t2.Hours,
+                                        t2.Minutes,
+                                        t2.Seconds,
+                                        t2.Milliseconds);
+
+                    }@answer2
+                </div>
+            </div>
+            <div class="col-md-3   tile_stats_count">
+                <span class="count_top"><i class="fa fa-money"></i> Total Cost</span>
+                <div class="count">@Math.Round(Convert.ToDouble(Model._UserReport.TotalCost), 4)</div>
             </div>
 
 
         </div>
     </div>
-    <!-- /page content -->
-    <!-- footer content -->
-    <footer>
-        <div class="pull-right">
-            PAIS Group
+    <!-- /top tiles -->
+
+
+
+    <div class="row">
+
+        <div class="col-md-12 col-sm-12 ">
+            <div class="x_panel">
+                <div class="x_title">
+                    <h2>Recent PSTN  <small>Calls</small></h2>
+
+                    <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                    <div class="dashboard-widget-content">
+                        <table class="table table-striped" id="datatable">
+                            <thead>
+                                <tr>
+                                    <td>Call From</td>
+                                    <td>Call To</td>
+                                    <td>Start Time</td>
+                                    <td>End Time</td>
+                                    <td>Total Call Time</td>
+                                    <td>Cost</td>
+                                </tr>
+
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model._UserReport.OutgoingCalls)
+                                {
+                                <tr>
+                                    <td>
+                                        @item.CallerName
+                                    </td>
+                                    <td>
+                                        @item.CalleeNumber
+                                    </td>
+                                    <td>
+                                        @item.startDateTime.DateTime.ToShortTimeString()
+                                    </td>
+                                    <td>
+                                        @item.endDateTime.DateTime.ToShortTimeString()
+                                    </td>
+
+                                    @{
+                                        if (item.TotalTime > 1.0)
+                                        {
+                                            TimeSpan t6 = TimeSpan.FromSeconds(item.TotalTime);
+
+                                            string answer6 = string.Format("{0:D2}:{1:D2}:{2:D2}",
+                                                            t6.Hours,
+                                                            t6.Minutes,
+                                                            t6.Seconds,
+                                                            t6.Milliseconds);
+                                            <td>
+                                                @answer6
+                                            </td>
+                                            <td>
+                                                @Math.Round(Convert.ToDouble(item.TotalCost), 3)
+                                            </td>
+                                        }
+                                        else
+                                        {
+                                            <td>
+                                                Missed Call
+                                            </td>
+                                            <td>
+0.0                                            </td>
+                                        }
+
+                                    }
+
+
+
+                                </tr>
+
+                                }
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="clearfix"></div>
-    </footer>
-    <!-- /footer content -->
-    <script>
+
+
+    </div>
+</div>
+<!-- /page content -->
+<!-- footer content -->
+<footer>
+    <div class="pull-right">
+        PAIS Group
+    </div>
+    <div class="clearfix"></div>
+</footer>
+<!-- /footer content -->
+<script>
 
 
 
@@ -163,4 +177,4 @@
 
 };
 
-    </script>
+</script>

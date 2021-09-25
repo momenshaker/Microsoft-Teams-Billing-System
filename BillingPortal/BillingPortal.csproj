@@ -8,15 +8,19 @@
     <Compile Remove="Areas\API\Data\**" />
     <Compile Remove="Areas\API\Models\**" />
     <Compile Remove="Areas\API\Views\**" />
+    <Compile Remove="Views\**" />
     <Content Remove="Areas\API\Data\**" />
     <Content Remove="Areas\API\Models\**" />
     <Content Remove="Areas\API\Views\**" />
+    <Content Remove="Views\**" />
     <EmbeddedResource Remove="Areas\API\Data\**" />
     <EmbeddedResource Remove="Areas\API\Models\**" />
     <EmbeddedResource Remove="Areas\API\Views\**" />
+    <EmbeddedResource Remove="Views\**" />
     <None Remove="Areas\API\Data\**" />
     <None Remove="Areas\API\Models\**" />
     <None Remove="Areas\API\Views\**" />
+    <None Remove="Views\**" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Helpers\vbtrmh4y.3db~" />
@@ -40,7 +44,6 @@
     <PackageReference Include="RestSharp" Version="106.11.4" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Views\Notifications\" />
     <Folder Include="wwwroot\ExcelReports\" />
   </ItemGroup>
 </Project>

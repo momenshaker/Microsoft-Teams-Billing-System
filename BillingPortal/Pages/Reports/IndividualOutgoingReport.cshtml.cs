@@ -80,7 +80,7 @@ namespace BillingPortal.Pages.Reports
                 InternalCalls = GetAllRecords.Where(x => x.Phone == false).OrderByDescending(x => x.endDateTime).ToList(),
                 OutgoingCalls = GetAllRecords.Where(x => x.Phone == true).OrderByDescending(x => x.endDateTime).ToList(),
                 MapData = Map,
-                TotalCost = GetAllRecords.Select(x => x.TotalCost).Sum(),
+                TotalCost = GetAllRecords.Where(x => x.TotalTime >= 1.0).Select(x => x.TotalCost).Sum(),
                 MostPersonUsageCost = ByUserCost
             };
 

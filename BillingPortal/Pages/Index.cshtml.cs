@@ -95,7 +95,7 @@ namespace BillingPortal.Pages
                     InternalCalls = GetAllRecords.Where(x => x.Phone == false).OrderByDescending(x => x.endDateTime).Take(5).ToList(),
                     OutgoingCalls = GetAllRecords.Where(x => x.Phone == true).OrderByDescending(x => x.endDateTime).Take(5).ToList(),
                     MapData = Map,
-                    TotalCost = GetAllRecords.Select(x => x.TotalCost).Sum(),
+                    TotalCost = GetAllRecords.Where(x => x.TotalTime >= 1.0).Select(x => x.TotalCost).Sum(),
                     MostPersonUsageCost = ByUserCost.OrderByDescending(x => x.Value).Take(5).ToList(),
                     LatestUpdate = LatestUpdate.endDateTime.DateTime.ToShortDateString() + "-" + LatestUpdate.endDateTime.DateTime.ToShortTimeString()
                 };

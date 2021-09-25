@@ -13,8 +13,8 @@ namespace BillingPortal.Helpers
         private CrontabSchedule _schedule;
         private DateTime _nextRun;
 
-        //private string Schedule => "0 0 12 * * *"; //Runs every 10 seconds
-        private string Schedule => "10 * * * * *"; //Runs every 10 seconds
+        private string Schedule => "0 0 12 * * *"; //Runs every 10 seconds
+        //private string Schedule => "10 * * * * *"; //Runs every 10 seconds
         public Worker()
         {
             _schedule = CrontabSchedule.Parse(Schedule, new CrontabSchedule.ParseOptions { IncludingSeconds = true });

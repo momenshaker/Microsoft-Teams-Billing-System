@@ -27,10 +27,15 @@ namespace BillingPortal.Infrasturcture.Services
         {
             try
             {
-                var Accesstoken = await AuthenticateOutboundRequestAsync("a5ec227e-1161-487d-8e4b-168353d1a844", "961c04f4-9003-4613-8b85-cabd4989e8e5", "RWQ7Q~umhGx7rWHcpIrUaKw14UO5PAO94YFjc");
+                var GetSetting = new SystemSetting();
+                using (DatabaseContext databaseContext = new DatabaseContext())
+                {
+                    GetSetting = databaseContext.SystemSettings.FirstOrDefault();
+                }
+                var Accesstoken = await AuthenticateOutboundRequestAsync(GetSetting.TID, GetSetting.AID, GetSetting.Sec);
                 var GetToken = JsonConvert.DeserializeObject<Token>(Accesstoken);
 
-                var client = new RestClient("https://graph.microsoft.com/beta/communications/callRecords/getDirectRoutingCalls(fromDateTime=" + DateTime.Now.AddMonths(-1).ToString("yyyy-MM-dd") + ",toDateTime=" + DateTime.Now.ToString("yyyy-MM-dd") + ")")
+                var client = new RestClient("https://graph.microsoft.com/" + GetSetting.Version + "/communications/callRecords/getDirectRoutingCalls(fromDateTime=" + DateTime.Now.AddMonths(-1).ToString("yyyy-MM-dd") + ",toDateTime=" + DateTime.Now.ToString("yyyy-MM-dd") + ")")
                 {
                     Timeout = -1
                 };
@@ -46,6 +51,7 @@ namespace BillingPortal.Infrasturcture.Services
 
                 }
                 return response.Content;
+
             }
             catch (Exception ex)
             {
@@ -65,6 +71,7 @@ namespace BillingPortal.Infrasturcture.Services
             {
                 using (DatabaseContext databaseContext = new DatabaseContext())
                 {
+
                     var Sessions = ConvertData.Sessions.FirstOrDefault();
                     try
                     {
@@ -209,34 +216,34 @@ namespace BillingPortal.Infrasturcture.Services
                                 else
                                 {
 
-                                    var GetCaldulcatedData = CalculateCall(Sessions?.Callee?.Identity?.Phone?.Id, TotalTime, databaseContext);
-                                    RecordsTable recordsTable = new RecordsTable()
-                                    {
-                                        ID = Guid.NewGuid(),
-                                        RecoredId = ConvertData.Id,
-                                        type = ConvertData.Type,
-                                        startDateTime = ConvertData.StartDateTime,
-                                        endDateTime = ConvertData.EndDateTime,
-                                        Phone = true,
-                                        CalleeNumber = Sessions?.Callee?.Identity?.Phone?.Id?.ToString() ?? "",
-                                        CalleeId = Guid.Empty,
-                                        CalleeName = Sessions?.Callee?.Identity?.Phone?.DisplayName ?? "",
-                                        CalleeTanent = Guid.Empty,
-                                        CallerId = Sessions?.Caller?.Identity?.User?.Id ?? Guid.Empty,
-                                        CallerName = Sessions?.Caller?.Identity?.User?.DisplayName ?? "",
-                                        CallerTanent = Sessions?.Caller?.Identity?.User?.TenantId ?? Guid.Empty,
-                                        SessionCalleePlatform = Sessions?.Callee?.UserAgent?.Platform ?? "",
-                                        SessionCalleeProductFamily = Sessions?.Callee?.UserAgent?.ProductFamily ?? "",
-                                        SessionCallerPlatform = Sessions?.Caller?.UserAgent?.Platform ?? "",
-                                        SessionCallerProductFamily = Sessions?.Caller?.UserAgent?.ProductFamily ?? "",
-                                        TotalTime = TotalTime.TotalSeconds,
-                                        Country = GetCaldulcatedData.Country,
-                                        TotalCost = GetCaldulcatedData.totalamount,
-                                        dnsSuffix = Sessions?.Segments?.FirstOrDefault()?.Media?.FirstOrDefault()?.CallerNetwork?.DnsSuffix ?? "",
-                                        ReflexiveIPAddress = Sessions?.Segments?.FirstOrDefault()?.Media?.FirstOrDefault()?.CallerNetwork?.ReflexiveIpAddress ?? "",
+                                    //var GetCaldulcatedData = CalculateCall(Sessions?.Callee?.Identity?.Phone?.Id, TotalTime, databaseContext);
+                                    //RecordsTable recordsTable = new RecordsTable()
+                                    //{
+                                    //    ID = Guid.NewGuid(),
+                                    //    RecoredId = ConvertData.Id,
+                                    //    type = ConvertData.Type,
+                                    //    startDateTime = ConvertData.StartDateTime,
+                                    //    endDateTime = ConvertData.EndDateTime,
+                                    //    Phone = true,
+                                    //    CalleeNumber = Sessions?.Callee?.Identity?.Phone?.Id?.ToString() ?? "",
+                                    //    CalleeId = Guid.Empty,
+                                    //    CalleeName = Sessions?.Callee?.Identity?.Phone?.DisplayName ?? "",
+                                    //    CalleeTanent = Guid.Empty,
+                                    //    CallerId = Sessions?.Caller?.Identity?.User?.Id ?? Guid.Empty,
+                                    //    CallerName = Sessions?.Caller?.Identity?.User?.DisplayName ?? "",
+                                    //    CallerTanent = Sessions?.Caller?.Identity?.User?.TenantId ?? Guid.Empty,
+                                    //    SessionCalleePlatform = Sessions?.Callee?.UserAgent?.Platform ?? "",
+                                    //    SessionCalleeProductFamily = Sessions?.Callee?.UserAgent?.ProductFamily ?? "",
+                                    //    SessionCallerPlatform = Sessions?.Caller?.UserAgent?.Platform ?? "",
+                                    //    SessionCallerProductFamily = Sessions?.Caller?.UserAgent?.ProductFamily ?? "",
+                                    //    TotalTime = TotalTime.TotalSeconds,
+                                    //    Country = GetCaldulcatedData.Country,
+                                    //    TotalCost = GetCaldulcatedData.totalamount,
+                                    //    dnsSuffix = Sessions?.Segments?.FirstOrDefault()?.Media?.FirstOrDefault()?.CallerNetwork?.DnsSuffix ?? "",
+                                    //    ReflexiveIPAddress = Sessions?.Segments?.FirstOrDefault()?.Media?.FirstOrDefault()?.CallerNetwork?.ReflexiveIpAddress ?? "",
 
-                                    };
-                                    databaseContext.recordsTables.Add(recordsTable);
+                                    //};
+                                    //databaseContext.recordsTables.Add(recordsTable);
 
                                 }
 
